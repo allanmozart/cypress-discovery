@@ -18,5 +18,6 @@ import './commands'
 require("cypress-xpath")
 require("mocha")
 require("cypress-file-upload")
+//require("faker")
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
