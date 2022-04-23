@@ -4,13 +4,7 @@ import signUpPage from "../page-objects/SignUpPage"
 import signUpFactory from "../fixtures/SignupFactory"
 
 describe('Cadastro', () => {
-/*
-    beforeEach( ()=> {
-        cy.fixture('deliver').then(function (d) {
-            this.deliver = d
-        })
-    })
-*/
+
     it('Fill form for register', function() {
 
         var deliver = signUpFactory.deliver()
